@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  height: 95%;
+  width: 95%;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.row, .container, .col-sm-10{
+  height: 100%;
+}
+
+.col-sm-2 {
+  width: 16%;
+}
+
+.row {
+  height: 100%;
+}
+
+.complete {
+  height: 100%;
+  width: 100%;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.header-background {
+  background: darkcyan;
+  font-weight: bold;
+  color: white;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.inline {
+  background: #fff;
+  float: left;
+}
+
+.whiteSpaceSquare {
+  background: #fff;
+  border: #ffffff;
+  float: left;
+  line-height: 34px;
+  height: 34px;
+  padding: 0;
+  width: 34px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.rightText {
+  text-align: right;
+}
+
+.smaller-whitespace-fromtop {
+  margin-top: 10px;
+}
+
+.small-whitespace-fromtop {
+    margin-top: 20px;
+}
+
+.whitespace-fromtop {
+  margin-top: 50px;
+}
+
+.other-whitespace-fromtop {
+    margin-top: 80px;
+}
+
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.centerStat {
+  /*background: darkcyan;*/
+  /*background: yellow;*/
+  background: darkorange;
+  border: 1px solid #999999;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.margin {
+  text-align: center;
+}
+
+.move-left {
+  margin-left: 300px;
+}
+
+.simbols {
+  border: 1px solid #222222;
+}
